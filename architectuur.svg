@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 980" font-family="system-ui, -apple-system, sans-serif">
+
+  <!-- Fase 1 — Plannen -->
+  <rect x="20" y="20" width="640" height="240" rx="12" fill="#e8e4f5" stroke="#9b8ec4" stroke-width="1.5"/>
+  <text x="38" y="46" font-size="14" font-weight="700" fill="#6b54b5">Fase 1 — Plannen</text>
+  <text x="38" y="62" font-size="11" fill="#8b74c5">Begin van de maand</text>
+
+  <!-- Bronnen rij -->
+  <rect x="50" y="78" width="150" height="52" rx="6" fill="#f5f3fc" stroke="#c4bce0" stroke-width="1"/>
+  <text x="125" y="100" font-size="11" font-weight="600" fill="#3d3d3d" text-anchor="middle">Marcom repo</text>
+  <text x="125" y="116" font-size="9.5" fill="#888" text-anchor="middle">Strategie, stijl, archief</text>
+
+  <rect x="255" y="78" width="150" height="52" rx="6" fill="#f5f3fc" stroke="#c4bce0" stroke-width="1"/>
+  <text x="330" y="100" font-size="11" font-weight="600" fill="#3d3d3d" text-anchor="middle">PostHog</text>
+  <text x="330" y="116" font-size="9.5" fill="#888" text-anchor="middle">Webstats vorige maand</text>
+
+  <rect x="460" y="78" width="150" height="52" rx="6" fill="#f5f3fc" stroke="#c4bce0" stroke-width="1"/>
+  <text x="535" y="100" font-size="11" font-weight="600" fill="#3d3d3d" text-anchor="middle">LinkedIn</text>
+  <text x="535" y="116" font-size="9.5" fill="#888" text-anchor="middle">CSV / API performance</text>
+
+  <!-- Pijlen bronnen naar planner -->
+  <line x1="125" y1="130" x2="290" y2="168" stroke="#9b8ec4" stroke-width="1.2" marker-end="url(#arrow-purple)"/>
+  <line x1="330" y1="130" x2="330" y2="168" stroke="#9b8ec4" stroke-width="1.2" marker-end="url(#arrow-purple)"/>
+  <line x1="535" y1="130" x2="375" y2="168" stroke="#9b8ec4" stroke-width="1.2" marker-end="url(#arrow-purple)"/>
+
+  <!-- Claude planner agent -->
+  <rect x="210" y="170" width="240" height="52" rx="6" fill="#d4cdf0" stroke="#9b8ec4" stroke-width="1.5"/>
+  <text x="330" y="192" font-size="11" font-weight="600" fill="#3d3d3d" text-anchor="middle">Claude — planner agent</text>
+  <text x="330" y="208" font-size="9.5" fill="#5a4a9a" text-anchor="middle">Stelt topics + kalender op</text>
+
+  <!-- Fase 2 — Produceren -->
+  <rect x="20" y="310" width="640" height="230" rx="12" fill="#dff0eb" stroke="#6dbfa0" stroke-width="1.5"/>
+  <text x="38" y="336" font-size="14" font-weight="700" fill="#2a8a64">Fase 2 — Produceren</text>
+  <text x="38" y="352" font-size="11" fill="#4aaa84">Na goedkeuring kalender</text>
+
+  <!-- Claude copy agent -->
+  <rect x="150" y="362" width="240" height="52" rx="6" fill="#b8e5d5" stroke="#6dbfa0" stroke-width="1.5"/>
+  <text x="270" y="384" font-size="11" font-weight="600" fill="#3d3d3d" text-anchor="middle">Claude — copy agent</text>
+  <text x="270" y="400" font-size="9.5" fill="#2a7a58" text-anchor="middle">Genereert copyvoorstel per post</text>
+
+  <!-- Schrijfstijl repo -->
+  <rect x="460" y="362" width="150" height="52" rx="6" fill="#f5f3fc" stroke="#c4bce0" stroke-width="1"/>
+  <text x="535" y="384" font-size="11" font-weight="600" fill="#3d3d3d" text-anchor="middle">Schrijfstijl repo</text>
+  <text x="535" y="400" font-size="9.5" fill="#888" text-anchor="middle">Tone-of-voice kwaliteitsgate</text>
+  <line x1="460" y1="388" x2="393" y2="388" stroke="#6dbfa0" stroke-width="1.2" marker-end="url(#arrow-green)"/>
+
+  <!-- Joost eindredactie -->
+  <rect x="210" y="460" width="240" height="52" rx="6" fill="#fde8b0" stroke="#e8b840" stroke-width="1.5"/>
+  <text x="330" y="479" font-size="11" font-weight="600" fill="#3d3d3d" text-anchor="middle">🖊 Joost — eindredactie</text>
+  <text x="330" y="496" font-size="9.5" fill="#b08020" text-anchor="middle">Aanpassen, goedkeuren</text>
+
+  <!-- Joost kalender review (tussen fase 1 en 2) -->
+  <rect x="210" y="258" width="240" height="52" rx="6" fill="#fde8b0" stroke="#e8b840" stroke-width="1.5"/>
+  <text x="330" y="277" font-size="11" font-weight="600" fill="#3d3d3d" text-anchor="middle">🖊 Joost — kalender review</text>
+  <text x="330" y="294" font-size="9.5" fill="#b08020" text-anchor="middle">Aanpassen, goedkeuren</text>
+
+  <!-- Publicatie -->
+  <rect x="210" y="572" width="240" height="52" rx="6" fill="#f0f0f0" stroke="#b0b0b0" stroke-width="1.5"/>
+  <text x="330" y="594" font-size="11" font-weight="600" fill="#3d3d3d" text-anchor="middle">Publicatie</text>
+  <text x="330" y="610" font-size="9.5" fill="#888" text-anchor="middle">Handmatig → later via planner</text>
+
+  <!-- Repo archief -->
+  <rect x="480" y="572" width="150" height="52" rx="6" fill="#f5f3fc" stroke="#c4bce0" stroke-width="1"/>
+  <text x="555" y="594" font-size="11" font-weight="600" fill="#3d3d3d" text-anchor="middle">Repo — archief</text>
+  <text x="555" y="610" font-size="9.5" fill="#888" text-anchor="middle">Goedgekeurde copy opgeslagen</text>
+  <line x1="450" y1="598" x2="482" y2="598" stroke="#b0b0b0" stroke-width="1.2" marker-end="url(#arrow-grey)"/>
+
+  <!-- Fase 3 — Analyseren -->
+  <rect x="20" y="660" width="640" height="230" rx="12" fill="#fce8e4" stroke="#e08878" stroke-width="1.5"/>
+  <text x="38" y="686" font-size="14" font-weight="700" fill="#c04040">Fase 3 — Analyseren</text>
+  <text x="38" y="702" font-size="11" fill="#e06060">1e van de nieuwe maand</text>
+
+  <!-- LinkedIn data -->
+  <rect x="40" y="712" width="150" height="52" rx="6" fill="#f5f3fc" stroke="#c4bce0" stroke-width="1"/>
+  <text x="115" y="734" font-size="11" font-weight="600" fill="#3d3d3d" text-anchor="middle">LinkedIn data</text>
+  <text x="115" y="750" font-size="9.5" fill="#888" text-anchor="middle">Bereik, engagement, clicks</text>
+
+  <!-- PostHog data -->
+  <rect x="490" y="712" width="150" height="52" rx="6" fill="#f5f3fc" stroke="#c4bce0" stroke-width="1"/>
+  <text x="565" y="734" font-size="11" font-weight="600" fill="#3d3d3d" text-anchor="middle">PostHog data</text>
+  <text x="565" y="750" font-size="9.5" fill="#888" text-anchor="middle">Bezoekers, time on site</text>
+
+  <!-- Claude analyse agent -->
+  <rect x="210" y="712" width="240" height="52" rx="6" fill="#f0b8b0" stroke="#e08878" stroke-width="1.5"/>
+  <text x="330" y="734" font-size="11" font-weight="600" fill="#3d3d3d" text-anchor="middle">Claude — analyse agent</text>
+  <text x="330" y="750" font-size="9.5" fill="#b03030" text-anchor="middle">Bevindingen per post + kanaal</text>
+
+  <!-- Pijlen LinkedIn + PostHog naar analyse agent -->
+  <line x1="190" y1="738" x2="212" y2="738" stroke="#e08878" stroke-width="1.2" marker-end="url(#arrow-red)"/>
+  <line x1="490" y1="738" x2="452" y2="738" stroke="#e08878" stroke-width="1.2" marker-end="url(#arrow-red)"/>
+
+  <!-- Repo leermateriaal -->
+  <rect x="210" y="808" width="240" height="52" rx="6" fill="#fcd8d0" stroke="#e08878" stroke-width="1.5"/>
+  <text x="330" y="830" font-size="11" font-weight="600" fill="#3d3d3d" text-anchor="middle">Repo — leermateriaal</text>
+  <text x="330" y="846" font-size="9.5" fill="#b03030" text-anchor="middle">Bevindingen opgeslagen</text>
+
+  <!-- Verticale pijlen -->
+  <line x1="330" y1="222" x2="330" y2="256" stroke="#9b8ec4" stroke-width="1.5" marker-end="url(#arrow-purple)"/>
+  <line x1="330" y1="310" x2="330" y2="362" stroke="#6dbfa0" stroke-width="1.5" marker-end="url(#arrow-green)"/>
+  <line x1="330" y1="414" x2="330" y2="458" stroke="#6dbfa0" stroke-width="1.5" marker-end="url(#arrow-green)"/>
+  <line x1="330" y1="512" x2="330" y2="570" stroke="#b0b0b0" stroke-width="1.5" marker-end="url(#arrow-grey)"/>
+  <line x1="330" y1="624" x2="330" y2="660" stroke="#b0b0b0" stroke-width="1.5" marker-end="url(#arrow-grey)"/>
+  <line x1="330" y1="764" x2="330" y2="806" stroke="#e08878" stroke-width="1.5" marker-end="url(#arrow-red)"/>
+
+  <!-- Feedbackloop (stippellijn links) -->
+  <path d="M 200 834 L 30 834 L 30 284 L 208 284" fill="none" stroke="#888" stroke-width="1.5" stroke-dasharray="6,4" marker-end="url(#arrow-grey)"/>
+  <text x="8" y="570" font-size="10" fill="#888" writing-mode="tb">feed back</text>
+
+  <!-- Legend -->
+  <rect x="20" y="930" width="640" height="38" rx="6" fill="#fafafa" stroke="#ddd" stroke-width="1"/>
+  <rect x="35" y="943" width="14" height="14" rx="3" fill="#d4cdf0" stroke="#9b8ec4" stroke-width="1"/>
+  <text x="55" y="954" font-size="10" fill="#555">Plannen</text>
+  <rect x="120" y="943" width="14" height="14" rx="3" fill="#b8e5d5" stroke="#6dbfa0" stroke-width="1"/>
+  <text x="140" y="954" font-size="10" fill="#555">Produceren</text>
+  <rect x="225" y="943" width="14" height="14" rx="3" fill="#f0b8b0" stroke="#e08878" stroke-width="1"/>
+  <text x="245" y="954" font-size="10" fill="#555">Analyseren</text>
+  <rect x="330" y="943" width="14" height="14" rx="3" fill="#fde8b0" stroke="#e8b840" stroke-width="1"/>
+  <text x="350" y="954" font-size="10" fill="#555">Joost — checkpoint</text>
+  <rect x="460" y="943" width="14" height="14" rx="3" fill="#f5f3fc" stroke="#c4bce0" stroke-width="1"/>
+  <text x="480" y="954" font-size="10" fill="#555">Databron / archief</text>
+
+  <!-- Arrowhead markers -->
+  <defs>
+    <marker id="arrow-purple" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#9b8ec4"/>
+    </marker>
+    <marker id="arrow-green" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#6dbfa0"/>
+    </marker>
+    <marker id="arrow-grey" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#888"/>
+    </marker>
+    <marker id="arrow-red" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#e08878"/>
+    </marker>
+  </defs>
+
+</svg>
