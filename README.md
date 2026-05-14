@@ -2,6 +2,10 @@
 
 Centrale database voor marketing, communicatie en content van Radicle Ventures. Archief én fundament voor AI-native marcom.
 
+## Architectuur
+
+![AI-native marcom architectuur](architectuur.svg)
+
 ## Wat staat hier
 
 | Map | Inhoud |
