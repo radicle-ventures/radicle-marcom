@@ -53,20 +53,23 @@ Lees `archief/` voor toon en lengte van eerder goedgekeurde posts. Dit is Joost 
 
 ## Wat je oplevert
 
-Voor elke post in de kalender:
+Voor elke post werk je de bijbehorende pagina in Notion bij:
 
+**Notion workspace:** https://www.notion.so/360a2b8d1769816198bedae2e0ecd7b6
+
+1. Zoek de pagina op via titel en datum (database: LinkedIn Posts)
+2. Schrijf de volledige posttekst als de body van de pagina
+3. Vul de property **StyleCheck** in met de combo-score
+4. Zet de **Status** van Gepland naar **Draft**
+
+Voeg onderaan de pagina een notitieblok toe:
 ```
-## Post [datum] — [topic in één zin]
-
-[De volledige posttekst]
-
----
 Combo: [score] | Style: [score] | Tics: [score] | Slop: [score]
 Iteraties: [aantal]
-Notities: [optioneel — wat je hebt aangepast en waarom, of waarom de score niet gehaald werd]
+[Optioneel: wat aangepast en waarom, of waarom de score niet gehaald werd]
 ```
 
-Lever alle posts van de maand in één bestand op. Sla dit op als `archief/drafts_[jaar]-[maand].md` zodat het klaar staat voor Joost's eindredactie.
+Joost ziet in Notion alle posts met status Draft en kan ze direct bewerken en goedkeuren.
 
 ---
 
