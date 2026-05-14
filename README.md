@@ -16,6 +16,13 @@ Centrale database voor marketing, communicatie en content van Radicle Ventures. 
 | `social/` | Templates voor social media per platform |
 | `design/` | Visuele assets, richtlijnen, templates |
 
+## Schrijfomgeving
+
+Drafts worden geschreven en geredigeerd in Notion:
+**[Radicle Marcom — Notion workspace](https://www.notion.so/360a2b8d1769816198bedae2e0ecd7b6)**
+
+De copy agent schrijft drafts direct in Notion. Joost keurt goed via de statusflow: Gepland → Draft → Eindredactie → Goedgekeurd → Gepubliceerd.
+
 ## Samenhang met andere repos
 
 - **Tone-of-voice & schrijfstijl** → [`radicle-ventures/replicate-my-writing-style`](https://github.com/radicle-ventures/replicate-my-writing-style) — kwaliteitsgate voor AI-drafts die klinken als Joost Marsman
