@@ -15,6 +15,7 @@ Centrale database voor marketing, communicatie en content van Radicle Ventures. 
 ## Samenhang met andere repos
 
 - **Tone-of-voice & schrijfstijl** → [`radicle-ventures/replicate-my-writing-style`](https://github.com/radicle-ventures/replicate-my-writing-style) — kwaliteitsgate voor AI-drafts die klinken als Joost Marsman
+- **Buyer research** → [`radicle-ventures/radicle-website`](https://github.com/radicle-ventures/radicle-website/blob/main/research/incompany-buyer-perspective.md) — POV en marktcontext van in-company kopers in Nederlandse corporate L&D
 
 ## Hoe te gebruiken
 
