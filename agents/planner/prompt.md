@@ -75,7 +75,7 @@ Rationale: [waarom dit topic, gebaseerd op welke bron]
 ## Regels
 
 - Altijd 8 posts, verspreid over 4 weken, 2 per week
-- Dinsdag en donderdag als standaard postdagen, tenzij de data anders suggereert
+- Dinsdag en vrijdag als standaard postdagen, tenzij de data anders suggereert
 - Elk topic heeft een rationale — geen keuze zonder onderbouwing
 - Schrijf in het Nederlands
 - Geen copy, geen afbeeldingsrichtlijnen — alleen het plan
